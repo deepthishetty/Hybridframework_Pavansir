@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="10" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-27T12:51:30 IST" name="Suite" finished-at="2022-12-27T12:54:24 IST" duration-ms="173825">
+    <groups>
+    </groups>
+    <test started-at="2022-12-27T12:51:30 IST" name="Test1" finished-at="2022-12-27T12:52:56 IST" duration-ms="86028">
+      <class name="com.inetbanking.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testcases.HomePageTest@7fd50002]" started-at="2022-12-27T12:52:07 IST" name="setup" finished-at="2022-12-27T12:52:08 IST" duration-ms="937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomePage()[pri:0, instance:com.inetbanking.testcases.HomePageTest@7fd50002]" started-at="2022-12-27T12:52:08 IST" name="verifyHomePage" finished-at="2022-12-27T12:52:24 IST" duration-ms="16592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method signature="verifyhomPage()[pri:0, instance:com.inetbanking.testcases.HomePageTest@7fd50002]" started-at="2022-12-27T12:52:24 IST" name="verifyhomPage" finished-at="2022-12-27T12:52:40 IST" duration-ms="15349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhomPage -->
+        <test-method signature="verifyhomPage1()[pri:0, instance:com.inetbanking.testcases.HomePageTest@7fd50002]" started-at="2022-12-27T12:52:40 IST" name="verifyhomPage1" finished-at="2022-12-27T12:52:56 IST" duration-ms="16245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhomPage1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.inetbanking.testcases.HomePageTest@7fd50002]" started-at="2022-12-27T12:52:56 IST" name="teardown" finished-at="2022-12-27T12:52:56 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.inetbanking.testcases.HomePageTest -->
+      <class name="com.inetbanking.testcases.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testcases.LoginTest@3f4faf53]" started-at="2022-12-27T12:51:53 IST" name="setup" finished-at="2022-12-27T12:51:54 IST" duration-ms="929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.inetbanking.testcases.LoginTest@3f4faf53]" started-at="2022-12-27T12:51:54 IST" name="loginTest" finished-at="2022-12-27T12:52:06 IST" duration-ms="12372" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.fail(Assert.java:115)
+at com.inetbanking.testcases.LoginTest.loginTest(LoginTest.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.inetbanking.testcases.LoginTest@3f4faf53]" started-at="2022-12-27T12:52:06 IST" name="teardown" finished-at="2022-12-27T12:52:07 IST" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.inetbanking.testcases.LoginTest -->
+      <class name="com.inetbanking.testcases.LoginTestwithmultipledata">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testcases.LoginTestwithmultipledata@302c971f]" started-at="2022-12-27T12:51:30 IST" name="setup" finished-at="2022-12-27T12:51:33 IST" duration-ms="2529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testcases.LoginTestwithmultipledata@302c971f]" started-at="2022-12-27T12:51:34 IST" name="loginDDT" data-provider="logindetails" finished-at="2022-12-27T12:51:45 IST" duration-ms="11383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[deep]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testcases.LoginTestwithmultipledata@302c971f]" started-at="2022-12-27T12:51:45 IST" name="loginDDT" data-provider="logindetails" finished-at="2022-12-27T12:51:53 IST" duration-ms="7523" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[deepth]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.inetbanking.testcases.LoginTestwithmultipledata@302c971f]" started-at="2022-12-27T12:51:53 IST" name="teardown" finished-at="2022-12-27T12:51:53 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.inetbanking.testcases.LoginTestwithmultipledata -->
+    </test> <!-- Test1 -->
+    <test started-at="2022-12-27T12:52:57 IST" name="Test2" finished-at="2022-12-27T12:54:24 IST" duration-ms="87408">
+      <class name="com.inetbanking.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testcases.HomePageTest@72c8e7b]" started-at="2022-12-27T12:53:28 IST" name="setup" finished-at="2022-12-27T12:53:29 IST" duration-ms="958" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomePage()[pri:0, instance:com.inetbanking.testcases.HomePageTest@72c8e7b]" started-at="2022-12-27T12:53:29 IST" name="verifyHomePage" finished-at="2022-12-27T12:53:46 IST" duration-ms="16788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method signature="verifyhomPage()[pri:0, instance:com.inetbanking.testcases.HomePageTest@72c8e7b]" started-at="2022-12-27T12:53:46 IST" name="verifyhomPage" finished-at="2022-12-27T12:54:02 IST" duration-ms="15972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhomPage -->
+        <test-method signature="verifyhomPage1()[pri:0, instance:com.inetbanking.testcases.HomePageTest@72c8e7b]" started-at="2022-12-27T12:54:02 IST" name="verifyhomPage1" finished-at="2022-12-27T12:54:24 IST" duration-ms="21913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhomPage1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.inetbanking.testcases.HomePageTest@72c8e7b]" started-at="2022-12-27T12:54:24 IST" name="teardown" finished-at="2022-12-27T12:54:24 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.inetbanking.testcases.HomePageTest -->
+      <class name="com.inetbanking.testcases.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testcases.LoginTest@26abb146]" started-at="2022-12-27T12:53:17 IST" name="setup" finished-at="2022-12-27T12:53:18 IST" duration-ms="847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.inetbanking.testcases.LoginTest@26abb146]" started-at="2022-12-27T12:53:18 IST" name="loginTest" finished-at="2022-12-27T12:53:28 IST" duration-ms="10278" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.fail(Assert.java:115)
+at com.inetbanking.testcases.LoginTest.loginTest(LoginTest.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.inetbanking.testcases.LoginTest@26abb146]" started-at="2022-12-27T12:53:28 IST" name="teardown" finished-at="2022-12-27T12:53:28 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.inetbanking.testcases.LoginTest -->
+      <class name="com.inetbanking.testcases.LoginTestwithmultipledata">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testcases.LoginTestwithmultipledata@194fad1]" started-at="2022-12-27T12:52:57 IST" name="setup" finished-at="2022-12-27T12:52:58 IST" duration-ms="1041" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testcases.LoginTestwithmultipledata@194fad1]" started-at="2022-12-27T12:52:58 IST" name="loginDDT" data-provider="logindetails" finished-at="2022-12-27T12:53:09 IST" duration-ms="11542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[deep]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testcases.LoginTestwithmultipledata@194fad1]" started-at="2022-12-27T12:53:09 IST" name="loginDDT" data-provider="logindetails" finished-at="2022-12-27T12:53:17 IST" duration-ms="7275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[deepth]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.inetbanking.testcases.LoginTestwithmultipledata@194fad1]" started-at="2022-12-27T12:53:17 IST" name="teardown" finished-at="2022-12-27T12:53:17 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.inetbanking.testcases.LoginTestwithmultipledata -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

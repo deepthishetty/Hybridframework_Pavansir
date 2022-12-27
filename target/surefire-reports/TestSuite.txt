@@ -1,0 +1,148 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 128.381 sec <<< FAILURE! - in TestSuite
+loginDDT(com.inetbanking.testcases.LoginTestwithmultipledata)  Time elapsed: 10.984 sec  <<< FAILURE!
+java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot16164882456243902512.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+	at java.base/java.nio.file.Files.copy(Files.java:1295)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+	at com.inetbanking.testcases.LoginTestwithmultipledata.loginDDT(LoginTestwithmultipledata.java:22)
+
+loginDDT(com.inetbanking.testcases.LoginTestwithmultipledata)  Time elapsed: 7.468 sec  <<< FAILURE!
+java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot3643001720539123711.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+	at java.base/java.nio.file.Files.copy(Files.java:1295)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+	at com.inetbanking.testcases.LoginTestwithmultipledata.loginDDT(LoginTestwithmultipledata.java:22)
+
+loginTest(com.inetbanking.testcases.LoginTest)  Time elapsed: 13.121 sec  <<< FAILURE!
+java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot7208657966584134390.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+	at java.base/java.nio.file.Files.copy(Files.java:1295)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+	at com.inetbanking.testcases.LoginTest.loginTest(LoginTest.java:22)
+
+verifyHomePage(com.inetbanking.testcases.HomePageTest)  Time elapsed: 10.87 sec  <<< FAILURE!
+java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot11053590355032751604.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+	at java.base/java.nio.file.Files.copy(Files.java:1295)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+	at com.inetbanking.testcases.HomePageTest.verifyHomePage(HomePageTest.java:24)
+
+verifyhomPage(com.inetbanking.testcases.HomePageTest)  Time elapsed: 7.253 sec  <<< FAILURE!
+java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot14783268795078070978.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+	at java.base/java.nio.file.Files.copy(Files.java:1295)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+	at com.inetbanking.testcases.HomePageTest.verifyhomPage(HomePageTest.java:44)
+
+verifyhomPage1(com.inetbanking.testcases.HomePageTest)  Time elapsed: 7.173 sec  <<< FAILURE!
+java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot6287624569279457423.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+	at java.base/java.nio.file.Files.copy(Files.java:1295)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+	at com.inetbanking.testcases.HomePageTest.verifyhomPage1(HomePageTest.java:62)
+
+loginDDT(com.inetbanking.testcases.LoginTestwithmultipledata)  Time elapsed: 11.03 sec  <<< FAILURE!
+java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot1751896326568481067.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+	at java.base/java.nio.file.Files.copy(Files.java:1295)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+	at com.inetbanking.testcases.LoginTestwithmultipledata.loginDDT(LoginTestwithmultipledata.java:22)
+
+loginDDT(com.inetbanking.testcases.LoginTestwithmultipledata)  Time elapsed: 7.024 sec  <<< FAILURE!
+java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot6706315564168496200.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+	at java.base/java.nio.file.Files.copy(Files.java:1295)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+	at com.inetbanking.testcases.LoginTestwithmultipledata.loginDDT(LoginTestwithmultipledata.java:22)
+
+loginTest(com.inetbanking.testcases.LoginTest)  Time elapsed: 13.655 sec  <<< FAILURE!
+java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot5223538405872093052.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+	at java.base/java.nio.file.Files.copy(Files.java:1295)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+	at com.inetbanking.testcases.LoginTest.loginTest(LoginTest.java:22)
+
+verifyHomePage(com.inetbanking.testcases.HomePageTest)  Time elapsed: 11.598 sec  <<< FAILURE!
+java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot17249694294720004697.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+	at java.base/java.nio.file.Files.copy(Files.java:1295)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+	at com.inetbanking.testcases.HomePageTest.verifyHomePage(HomePageTest.java:24)
+
+verifyhomPage(com.inetbanking.testcases.HomePageTest)  Time elapsed: 7.444 sec  <<< FAILURE!
+java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot12929904319026816715.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+	at java.base/java.nio.file.Files.copy(Files.java:1295)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+	at com.inetbanking.testcases.HomePageTest.verifyhomPage(HomePageTest.java:44)
+
+verifyhomPage1(com.inetbanking.testcases.HomePageTest)  Time elapsed: 8.146 sec  <<< FAILURE!
+java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot5651386767654002383.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+	at java.base/java.nio.file.Files.copy(Files.java:1295)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+	at com.inetbanking.testcases.HomePageTest.verifyhomPage1(HomePageTest.java:62)
+

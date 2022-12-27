@@ -1,0 +1,9 @@
+com\inetbanking\testcases\BaseClass.class
+com\inetbanking\utilities\ExcelReader.class
+com\inetbanking\pageobjects\LoginPage.class
+com\inetbanking\testcases\LoginTest.class
+com\inetbanking\testcases\HomePageTest.class
+com\inetbanking\utilities\Reporting.class
+com\inetbanking\testcases\LoginTestwithmultipledata.class
+com\inetbanking\pageobjects\HomePage.class
+com\inetbanking\utilities\ReadConfig.class

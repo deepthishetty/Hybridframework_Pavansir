@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="49.401" tests="12" errors="0" skipped="0" failures="12">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.16+11-LTS-199"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.16+11-LTS-199"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\91910\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Users\91910\Downloads\sonar-scanner-cli-4.7.0.2747-windows\sonar-scanner-4.7.0.2747-windows\bin;C:\Program Files\nodejs\;C:\apache-maven-3.8.6\bin;C:\Program Files\Go\bin;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;D:\Git\cmd;D:\Git\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\91910\AppData\Local\Microsoft\WindowsApps;C:\Users\91910\AppData\Roaming\npm;C:\Users\91910\go\bin;C:\Users\91910\AppData\Local\Programs\Microsoft VS Code\bin;D:\Git\cmd;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.8.6/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.8.6\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\91910"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="91910"/>
+    <property name="java.class.path" value="C:\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.16"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\apache-maven-3.8.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="loginDDT" classname="com.inetbanking.testcases.LoginTestwithmultipledata" time="10.984">
+    <failure message="C:\Users\91910\AppData\Local\Temp\screenshot16164882456243902512.png -&gt; C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png" type="java.nio.file.AccessDeniedException">java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot16164882456243902512.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+	at java.base/java.nio.file.Files.copy(Files.java:1295)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+	at com.inetbanking.testcases.LoginTestwithmultipledata.loginDDT(LoginTestwithmultipledata.java:22)
+</failure>
+    <system-out><![CDATA[TestReport1970-01-01-05-30.html
+2
+2
+deep
+test@1234
+deepth
+user@123
+title is
+loginDDT1970-30-01-05-00.png
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+Starting Microsoft Edge WebDriver 108.0.1462.54 (c2998c8c661724d797c22f48cf555a2bef5029ee) on port 47290
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Dec 27, 2022 5:40:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 107
+]]></system-err>
+  </testcase>
+  <testcase name="loginDDT" classname="com.inetbanking.testcases.LoginTestwithmultipledata" time="7.468">
+    <failure message="C:\Users\91910\AppData\Local\Temp\screenshot3643001720539123711.png -&gt; C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png" type="java.nio.file.AccessDeniedException">java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot3643001720539123711.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+	at java.base/java.nio.file.Files.copy(Files.java:1295)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+	at com.inetbanking.testcases.LoginTestwithmultipledata.loginDDT(LoginTestwithmultipledata.java:22)
+</failure>
+    <system-out><![CDATA[title is
+loginDDT1970-30-01-05-00.png
+]]></system-out>
+  </testcase>
+  <testcase name="loginDDT" classname="com.inetbanking.testcases.LoginTestwithmultipledata" time="11.03">
+    <failure message="C:\Users\91910\AppData\Local\Temp\screenshot1751896326568481067.png -&gt; C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png" type="java.nio.file.AccessDeniedException">java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot1751896326568481067.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+	at java.base/java.nio.file.Files.copy(Files.java:1295)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+	at com.inetbanking.testcases.LoginTestwithmultipledata.loginDDT(LoginTestwithmultipledata.java:22)
+</failure>
+    <system-out><![CDATA[TestReport1970-01-01-05-30.html
+2
+2
+deep
+test@1234
+deepth
+user@123
+title is
+loginDDT1970-30-01-05-00.png
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 29958
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 27, 2022 5:41:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 107
+]]></system-err>
+  </testcase>
+  <testcase name="loginDDT" classname="com.inetbanking.testcases.LoginTestwithmultipledata" time="7.024">
+    <failure message="C:\Users\91910\AppData\Local\Temp\screenshot6706315564168496200.png -&gt; C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png" type="java.nio.file.AccessDeniedException">java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot6706315564168496200.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+	at java.base/java.nio.file.Files.copy(Files.java:1295)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+	at com.inetbanking.testcases.LoginTestwithmultipledata.loginDDT(LoginTestwithmultipledata.java:22)
+</failure>
+    <system-out><![CDATA[title is
+loginDDT1970-30-01-05-00.png
+]]></system-out>
+  </testcase>
+  <testcase name="loginTest" classname="com.inetbanking.testcases.LoginTest" time="13.121">
+    <failure message="C:\Users\91910\AppData\Local\Temp\screenshot7208657966584134390.png -&gt; C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png" type="java.nio.file.AccessDeniedException">java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot7208657966584134390.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+	at java.base/java.nio.file.Files.copy(Files.java:1295)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+	at com.inetbanking.testcases.LoginTest.loginTest(LoginTest.java:22)
+</failure>
+    <system-out><![CDATA[title is
+loginTest1970-30-01-05-00.png
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 108.0.1462.54 (c2998c8c661724d797c22f48cf555a2bef5029ee) on port 17569
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Dec 27, 2022 5:40:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 107
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="com.inetbanking.testcases.LoginTest" time="13.655">
+    <failure message="C:\Users\91910\AppData\Local\Temp\screenshot5223538405872093052.png -&gt; C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png" type="java.nio.file.AccessDeniedException">java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot5223538405872093052.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+	at java.base/java.nio.file.Files.copy(Files.java:1295)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+	at com.inetbanking.testcases.LoginTest.loginTest(LoginTest.java:22)
+</failure>
+    <system-out><![CDATA[title is
+loginTest1970-30-01-05-00.png
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 30217
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 27, 2022 5:41:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 107
+]]></system-err>
+  </testcase>
+  <testcase name="verifyHomePage" classname="com.inetbanking.testcases.HomePageTest" time="10.87">
+    <failure message="C:\Users\91910\AppData\Local\Temp\screenshot11053590355032751604.png -&gt; C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png" type="java.nio.file.AccessDeniedException">java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot11053590355032751604.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+	at java.base/java.nio.file.Files.copy(Files.java:1295)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+	at com.inetbanking.testcases.HomePageTest.verifyHomePage(HomePageTest.java:24)
+</failure>
+    <system-out><![CDATA[title is
+verifyHomePage1970-30-01-05-00.png
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 108.0.1462.54 (c2998c8c661724d797c22f48cf555a2bef5029ee) on port 10799
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Dec 27, 2022 5:40:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 107
+]]></system-err>
+  </testcase>
+  <testcase name="verifyHomePage" classname="com.inetbanking.testcases.HomePageTest" time="11.598">
+    <failure message="C:\Users\91910\AppData\Local\Temp\screenshot17249694294720004697.png -&gt; C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png" type="java.nio.file.AccessDeniedException">java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot17249694294720004697.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+	at java.base/java.nio.file.Files.copy(Files.java:1295)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+	at com.inetbanking.testcases.HomePageTest.verifyHomePage(HomePageTest.java:24)
+</failure>
+    <system-out><![CDATA[title is
+verifyHomePage1970-30-01-05-00.png
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 22025
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 27, 2022 5:41:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 107
+]]></system-err>
+  </testcase>
+  <testcase name="verifyhomPage" classname="com.inetbanking.testcases.HomePageTest" time="7.253">
+    <failure message="C:\Users\91910\AppData\Local\Temp\screenshot14783268795078070978.png -&gt; C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png" type="java.nio.file.AccessDeniedException">java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot14783268795078070978.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+	at java.base/java.nio.file.Files.copy(Files.java:1295)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+	at com.inetbanking.testcases.HomePageTest.verifyhomPage(HomePageTest.java:44)
+</failure>
+    <system-out><![CDATA[title is
+verifyhomPage1970-30-01-05-00.png
+]]></system-out>
+  </testcase>
+  <testcase name="verifyhomPage" classname="com.inetbanking.testcases.HomePageTest" time="7.444">
+    <failure message="C:\Users\91910\AppData\Local\Temp\screenshot12929904319026816715.png -&gt; C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png" type="java.nio.file.AccessDeniedException">java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot12929904319026816715.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+	at java.base/java.nio.file.Files.copy(Files.java:1295)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+	at com.inetbanking.testcases.HomePageTest.verifyhomPage(HomePageTest.java:44)
+</failure>
+    <system-out><![CDATA[title is
+verifyhomPage1970-30-01-05-00.png
+]]></system-out>
+  </testcase>
+  <testcase name="verifyhomPage1" classname="com.inetbanking.testcases.HomePageTest" time="7.173">
+    <failure message="C:\Users\91910\AppData\Local\Temp\screenshot6287624569279457423.png -&gt; C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png" type="java.nio.file.AccessDeniedException">java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot6287624569279457423.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+	at java.base/java.nio.file.Files.copy(Files.java:1295)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+	at com.inetbanking.testcases.HomePageTest.verifyhomPage1(HomePageTest.java:62)
+</failure>
+    <system-out><![CDATA[title is
+verifyhomPage11970-30-01-05-00.png
+]]></system-out>
+  </testcase>
+  <testcase name="verifyhomPage1" classname="com.inetbanking.testcases.HomePageTest" time="8.146">
+    <failure message="C:\Users\91910\AppData\Local\Temp\screenshot5651386767654002383.png -&gt; C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png" type="java.nio.file.AccessDeniedException">java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot5651386767654002383.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+	at java.base/java.nio.file.Files.copy(Files.java:1295)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+	at com.inetbanking.testcases.HomePageTest.verifyhomPage1(HomePageTest.java:62)
+</failure>
+    <system-out><![CDATA[title is
+verifyhomPage11970-30-01-05-00.png
+]]></system-out>
+  </testcase>
+</testsuite>

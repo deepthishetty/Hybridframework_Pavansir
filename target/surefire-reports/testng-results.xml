@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="0" failed="12" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-27T17:40:16 IST" name="Suite" finished-at="2022-12-27T17:42:23 IST" duration-ms="126900">
+    <groups>
+    </groups>
+    <test started-at="2022-12-27T17:40:16 IST" name="Test1" finished-at="2022-12-27T17:41:20 IST" duration-ms="64131">
+      <class name="com.inetbanking.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testcases.HomePageTest@76c3e77a]" started-at="2022-12-27T17:40:53 IST" name="setup" finished-at="2022-12-27T17:40:54 IST" duration-ms="916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomePage()[pri:0, instance:com.inetbanking.testcases.HomePageTest@76c3e77a]" started-at="2022-12-27T17:40:54 IST" name="verifyHomePage" finished-at="2022-12-27T17:41:05 IST" duration-ms="10869" status="FAIL">
+          <exception class="java.nio.file.AccessDeniedException">
+            <message>
+              <![CDATA[C:\Users\91910\AppData\Local\Temp\screenshot11053590355032751604.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot11053590355032751604.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+at java.base/java.nio.file.Files.copy(Files.java:1295)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+at com.inetbanking.testcases.HomePageTest.verifyHomePage(HomePageTest.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.nio.file.AccessDeniedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method signature="verifyhomPage()[pri:0, instance:com.inetbanking.testcases.HomePageTest@76c3e77a]" started-at="2022-12-27T17:41:05 IST" name="verifyhomPage" finished-at="2022-12-27T17:41:12 IST" duration-ms="7253" status="FAIL">
+          <exception class="java.nio.file.AccessDeniedException">
+            <message>
+              <![CDATA[C:\Users\91910\AppData\Local\Temp\screenshot14783268795078070978.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot14783268795078070978.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+at java.base/java.nio.file.Files.copy(Files.java:1295)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+at com.inetbanking.testcases.HomePageTest.verifyhomPage(HomePageTest.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.nio.file.AccessDeniedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhomPage -->
+        <test-method signature="verifyhomPage1()[pri:0, instance:com.inetbanking.testcases.HomePageTest@76c3e77a]" started-at="2022-12-27T17:41:12 IST" name="verifyhomPage1" finished-at="2022-12-27T17:41:20 IST" duration-ms="7172" status="FAIL">
+          <exception class="java.nio.file.AccessDeniedException">
+            <message>
+              <![CDATA[C:\Users\91910\AppData\Local\Temp\screenshot6287624569279457423.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot6287624569279457423.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+at java.base/java.nio.file.Files.copy(Files.java:1295)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+at com.inetbanking.testcases.HomePageTest.verifyhomPage1(HomePageTest.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.nio.file.AccessDeniedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhomPage1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.inetbanking.testcases.HomePageTest@76c3e77a]" started-at="2022-12-27T17:41:20 IST" name="teardown" finished-at="2022-12-27T17:41:20 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.inetbanking.testcases.HomePageTest -->
+      <class name="com.inetbanking.testcases.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testcases.LoginTest@57d7f8ca]" started-at="2022-12-27T17:40:39 IST" name="setup" finished-at="2022-12-27T17:40:40 IST" duration-ms="975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.inetbanking.testcases.LoginTest@57d7f8ca]" started-at="2022-12-27T17:40:40 IST" name="loginTest" finished-at="2022-12-27T17:40:53 IST" duration-ms="13121" status="FAIL">
+          <exception class="java.nio.file.AccessDeniedException">
+            <message>
+              <![CDATA[C:\Users\91910\AppData\Local\Temp\screenshot7208657966584134390.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot7208657966584134390.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+at java.base/java.nio.file.Files.copy(Files.java:1295)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+at com.inetbanking.testcases.LoginTest.loginTest(LoginTest.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.nio.file.AccessDeniedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.inetbanking.testcases.LoginTest@57d7f8ca]" started-at="2022-12-27T17:40:53 IST" name="teardown" finished-at="2022-12-27T17:40:53 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.inetbanking.testcases.LoginTest -->
+      <class name="com.inetbanking.testcases.LoginTestwithmultipledata">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testcases.LoginTestwithmultipledata@5403f35f]" started-at="2022-12-27T17:40:16 IST" name="setup" finished-at="2022-12-27T17:40:19 IST" duration-ms="3093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testcases.LoginTestwithmultipledata@5403f35f]" started-at="2022-12-27T17:40:20 IST" name="loginDDT" data-provider="logindetails" finished-at="2022-12-27T17:40:31 IST" duration-ms="10967" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[deep]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@1234]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.nio.file.AccessDeniedException">
+            <message>
+              <![CDATA[C:\Users\91910\AppData\Local\Temp\screenshot16164882456243902512.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot16164882456243902512.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+at java.base/java.nio.file.Files.copy(Files.java:1295)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+at com.inetbanking.testcases.LoginTestwithmultipledata.loginDDT(LoginTestwithmultipledata.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.nio.file.AccessDeniedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testcases.LoginTestwithmultipledata@5403f35f]" started-at="2022-12-27T17:40:31 IST" name="loginDDT" data-provider="logindetails" finished-at="2022-12-27T17:40:39 IST" duration-ms="7470" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[deepth]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.nio.file.AccessDeniedException">
+            <message>
+              <![CDATA[C:\Users\91910\AppData\Local\Temp\screenshot3643001720539123711.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot3643001720539123711.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+at java.base/java.nio.file.Files.copy(Files.java:1295)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+at com.inetbanking.testcases.LoginTestwithmultipledata.loginDDT(LoginTestwithmultipledata.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.nio.file.AccessDeniedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.inetbanking.testcases.LoginTestwithmultipledata@5403f35f]" started-at="2022-12-27T17:40:39 IST" name="teardown" finished-at="2022-12-27T17:40:39 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.inetbanking.testcases.LoginTestwithmultipledata -->
+    </test> <!-- Test1 -->
+    <test started-at="2022-12-27T17:41:20 IST" name="Test2" finished-at="2022-12-27T17:42:23 IST" duration-ms="62368">
+      <class name="com.inetbanking.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testcases.HomePageTest@618425b5]" started-at="2022-12-27T17:41:54 IST" name="setup" finished-at="2022-12-27T17:41:55 IST" duration-ms="866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomePage()[pri:0, instance:com.inetbanking.testcases.HomePageTest@618425b5]" started-at="2022-12-27T17:41:55 IST" name="verifyHomePage" finished-at="2022-12-27T17:42:07 IST" duration-ms="11597" status="FAIL">
+          <exception class="java.nio.file.AccessDeniedException">
+            <message>
+              <![CDATA[C:\Users\91910\AppData\Local\Temp\screenshot17249694294720004697.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot17249694294720004697.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+at java.base/java.nio.file.Files.copy(Files.java:1295)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+at com.inetbanking.testcases.HomePageTest.verifyHomePage(HomePageTest.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.nio.file.AccessDeniedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method signature="verifyhomPage()[pri:0, instance:com.inetbanking.testcases.HomePageTest@618425b5]" started-at="2022-12-27T17:42:07 IST" name="verifyhomPage" finished-at="2022-12-27T17:42:14 IST" duration-ms="7443" status="FAIL">
+          <exception class="java.nio.file.AccessDeniedException">
+            <message>
+              <![CDATA[C:\Users\91910\AppData\Local\Temp\screenshot12929904319026816715.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot12929904319026816715.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+at java.base/java.nio.file.Files.copy(Files.java:1295)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+at com.inetbanking.testcases.HomePageTest.verifyhomPage(HomePageTest.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.nio.file.AccessDeniedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhomPage -->
+        <test-method signature="verifyhomPage1()[pri:0, instance:com.inetbanking.testcases.HomePageTest@618425b5]" started-at="2022-12-27T17:42:14 IST" name="verifyhomPage1" finished-at="2022-12-27T17:42:23 IST" duration-ms="8145" status="FAIL">
+          <exception class="java.nio.file.AccessDeniedException">
+            <message>
+              <![CDATA[C:\Users\91910\AppData\Local\Temp\screenshot5651386767654002383.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot5651386767654002383.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+at java.base/java.nio.file.Files.copy(Files.java:1295)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+at com.inetbanking.testcases.HomePageTest.verifyhomPage1(HomePageTest.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.nio.file.AccessDeniedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhomPage1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.inetbanking.testcases.HomePageTest@618425b5]" started-at="2022-12-27T17:42:23 IST" name="teardown" finished-at="2022-12-27T17:42:23 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.inetbanking.testcases.HomePageTest -->
+      <class name="com.inetbanking.testcases.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testcases.LoginTest@18d87d80]" started-at="2022-12-27T17:41:40 IST" name="setup" finished-at="2022-12-27T17:41:41 IST" duration-ms="845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.inetbanking.testcases.LoginTest@18d87d80]" started-at="2022-12-27T17:41:41 IST" name="loginTest" finished-at="2022-12-27T17:41:54 IST" duration-ms="13656" status="FAIL">
+          <exception class="java.nio.file.AccessDeniedException">
+            <message>
+              <![CDATA[C:\Users\91910\AppData\Local\Temp\screenshot5223538405872093052.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot5223538405872093052.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+at java.base/java.nio.file.Files.copy(Files.java:1295)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+at com.inetbanking.testcases.LoginTest.loginTest(LoginTest.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.nio.file.AccessDeniedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.inetbanking.testcases.LoginTest@18d87d80]" started-at="2022-12-27T17:41:54 IST" name="teardown" finished-at="2022-12-27T17:41:54 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.inetbanking.testcases.LoginTest -->
+      <class name="com.inetbanking.testcases.LoginTestwithmultipledata">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testcases.LoginTestwithmultipledata@1af2d44a]" started-at="2022-12-27T17:41:20 IST" name="setup" finished-at="2022-12-27T17:41:21 IST" duration-ms="965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testcases.LoginTestwithmultipledata@1af2d44a]" started-at="2022-12-27T17:41:22 IST" name="loginDDT" data-provider="logindetails" finished-at="2022-12-27T17:41:33 IST" duration-ms="11028" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[deep]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@1234]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.nio.file.AccessDeniedException">
+            <message>
+              <![CDATA[C:\Users\91910\AppData\Local\Temp\screenshot1751896326568481067.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot1751896326568481067.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+at java.base/java.nio.file.Files.copy(Files.java:1295)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+at com.inetbanking.testcases.LoginTestwithmultipledata.loginDDT(LoginTestwithmultipledata.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.nio.file.AccessDeniedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testcases.LoginTestwithmultipledata@1af2d44a]" started-at="2022-12-27T17:41:33 IST" name="loginDDT" data-provider="logindetails" finished-at="2022-12-27T17:41:40 IST" duration-ms="7023" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[deepth]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.nio.file.AccessDeniedException">
+            <message>
+              <![CDATA[C:\Users\91910\AppData\Local\Temp\screenshot6706315564168496200.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.nio.file.AccessDeniedException: C:\Users\91910\AppData\Local\Temp\screenshot6706315564168496200.png -> C:\Users\91910\eclipse-workspace\Seleniumfw_Pavansir\src\test\resources\Screenshots\logintest.png
+at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:202)
+at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:283)
+at java.base/java.nio.file.Files.copy(Files.java:1295)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+at com.inetbanking.testcases.BaseClass.captureScreenshost(BaseClass.java:61)
+at com.inetbanking.testcases.LoginTestwithmultipledata.loginDDT(LoginTestwithmultipledata.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.nio.file.AccessDeniedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.inetbanking.testcases.LoginTestwithmultipledata@1af2d44a]" started-at="2022-12-27T17:41:40 IST" name="teardown" finished-at="2022-12-27T17:41:40 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.inetbanking.testcases.LoginTestwithmultipledata -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
